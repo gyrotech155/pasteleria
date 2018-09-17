@@ -1,0 +1,947 @@
+[29-Aug-2018 14:16:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[29-Aug-2018 14:16:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pasteleria.carrito' doesn't exist in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 01:18:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[30-Aug-2018 17:57:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[30-Aug-2018 18:13:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:13:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:57 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:22:57 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:22:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:23:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:23:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:29:35 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:29:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:31:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:31:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:32:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:32:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:32:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:32:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:33:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:33:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:37:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:37:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:37:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 18:37:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id_carrito' doesn't have a default value in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 18:52:26 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[30-Aug-2018 19:10:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 19:10:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 19:10:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 19:10:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[30-Aug-2018 19:10:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[30-Aug-2018 19:10:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:30:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[31-Aug-2018 20:30:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[31-Aug-2018 20:31:11 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:31:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:31:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:32:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:32:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:34:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:34:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:38:01 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:38:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:38:05 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:38:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:38:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:38:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:38:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:38:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:38:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:38:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[31-Aug-2018 20:39:47 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[31-Aug-2018 20:39:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:33:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:33:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:25 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:26 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:34:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:34:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:35:32 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:35:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:35:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:35:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:35:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:35:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:48:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:48:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 01:49:00 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 01:49:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:04:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:04:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:06:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:06:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:14:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:14:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:44:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:44:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:44:26 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:44:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:44:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:44:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 02:54:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 02:54:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '2018' for column 'fecha_pedido' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:21
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(21): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(22): ModeloCarrito::mdlNuevasCompras('carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 21
+[03-Sep-2018 03:15:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 03:15:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 03:19:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 03:19:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:20:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:20:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:23:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:23:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:23:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'fecha_reserva' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:54
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(54): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(45): ModeloCarrito::mdlDetalleCompra('detalle_carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 54
+[03-Sep-2018 15:23:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:23:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:23:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'fecha_reserva' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:54
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(54): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(45): ModeloCarrito::mdlDetalleCompra('detalle_carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 54
+[03-Sep-2018 15:23:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:23:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:23:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'fecha_reserva' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:54
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(54): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(45): ModeloCarrito::mdlDetalleCompra('detalle_carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 54
+[03-Sep-2018 15:23:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:23:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:23:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'fecha_reserva' at row 1 in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php:54
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php(54): PDOStatement->execute()
+#1 /home/v6rmp07wva1j/public_html/controladores/carrito.controlador.php(45): ModeloCarrito::mdlDetalleCompra('detalle_carrito', Array)
+#2 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home/v6rmp07wva1j/public_html/ajax/carrito.ajax.php(46): AjaxCarrito->ajaxCargarCompra()
+#4 {main}
+  thrown in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 54
+[03-Sep-2018 15:24:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:24:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:27:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:27:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 15:29:01 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 15:29:01 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 19:19:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 13
+[03-Sep-2018 19:19:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 19:19:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/carrito.modelo.php on line 44
+[03-Sep-2018 19:25:42 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[03-Sep-2018 19:25:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 58
+[03-Sep-2018 19:25:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[03-Sep-2018 19:39:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88
+[03-Sep-2018 19:39:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/modelos/sitio.modelo.php on line 88

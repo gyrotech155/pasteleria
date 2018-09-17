@@ -1,0 +1,245 @@
+[29-Aug-2018 01:04:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 01:04:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 01:05:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 01:05:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 01:05:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 01:05:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 01:07:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 01:07:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 01:07:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 01:07:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'yanina_daiana_1...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 13:32:25 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 13:32:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 13:32:35 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 13:32:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 13:32:47 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 13:32:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 13:34:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 13:34:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php:9
+Stack trace:
+#0 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php(12): Conexion::conectar()
+#2 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php(21): ModeloAdministradores::mdlMostrarAdministradores('administradores', 'email', 'romina@gmail.co...')
+#3 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/login.php(28): ControladorAdministradores->ctrIngresoAdministrador()
+#4 /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/plantilla.php(179): include('/home/v6rmp07wv...')
+#5 /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/plantilla.controlador.php(8): require('/home/v6rmp07wv...')
+#6 /home/v6rmp07wva1j/public_html/sitioAdmin/index.php( in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/conexion.php on line 9
+[29-Aug-2018 14:07:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:08:00 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:25:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:25:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 14
+[29-Aug-2018 14:33:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:33:57 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:34:11 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:34:11 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 14
+[29-Aug-2018 14:34:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:34:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 14
+[29-Aug-2018 14:34:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 33
+[29-Aug-2018 14:34:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:34:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 14
+[29-Aug-2018 14:38:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:38:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[29-Aug-2018 14:38:56 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[29-Aug-2018 14:38:56 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[29-Aug-2018 14:56:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[29-Aug-2018 14:56:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[29-Aug-2018 14:56:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[29-Aug-2018 14:56:13 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[02-Sep-2018 23:19:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[02-Sep-2018 23:19:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[02-Sep-2018 23:19:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[02-Sep-2018 23:19:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[02-Sep-2018 23:19:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 12:05:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:05:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:05:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:05:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:05:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:05:23 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:05:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:05:36 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 12:05:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:05:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:05:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:05:58 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:06:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:06:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:06:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:06:30 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:06:30 UTC] PHP Warning:  unlink(vistas/img/productos/IMG-20180629-WA0018.jpg): No such file or directory in /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/productos.controlador.php on line 104
+[03-Sep-2018 12:06:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/producto.modelo.php on line 74
+[03-Sep-2018 12:06:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:06:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:06:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:06:33 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:07:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:07:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:07:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:07:33 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:07:33 UTC] PHP Warning:  unlink(vistas/img/productos/IMG-20180629-WA0021.jpg): No such file or directory in /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/productos.controlador.php on line 104
+[03-Sep-2018 12:07:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/producto.modelo.php on line 74
+[03-Sep-2018 12:07:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:07:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:07:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:07:36 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:08:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:08:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:02 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:08:02 UTC] PHP Warning:  unlink(vistas/img/productos/IMG-20180629-WA0008.jpg): No such file or directory in /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/productos.controlador.php on line 104
+[03-Sep-2018 12:08:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/producto.modelo.php on line 74
+[03-Sep-2018 12:08:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:08:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:06 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:08:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:08:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:34 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 12:08:34 UTC] PHP Warning:  unlink(vistas/img/productos/IMG-20180629-WA0002.jpg): No such file or directory in /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/productos.controlador.php on line 104
+[03-Sep-2018 12:08:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/producto.modelo.php on line 74
+[03-Sep-2018 12:08:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 12:08:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 12:08:36 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 16:45:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:45:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:48:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:48:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:48:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:48:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:50:59 UTC] PHP Warning:  unlink(): No such file or directory in /home/v6rmp07wva1j/public_html/sitioAdmin/controladores/administradores.controlador.php on line 236
+[03-Sep-2018 16:50:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 65
+[03-Sep-2018 16:51:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:51:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:51:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 16:51:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:15:01 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:15:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:20:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:20:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/adminInicio.modelo.php on line 14
+[03-Sep-2018 19:20:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:20:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[03-Sep-2018 19:20:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:21:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:21:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[03-Sep-2018 19:21:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 33
+[03-Sep-2018 19:22:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:22:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/contacto.modelo.php on line 14
+[03-Sep-2018 19:22:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/redSocial.modelo.php on line 14
+[03-Sep-2018 19:22:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:22:24 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 19:22:48 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:22:48 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 19:22:48 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 76
+[03-Sep-2018 19:23:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:23:10 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 19:23:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:23:21 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 19:23:21 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 76
+[03-Sep-2018 19:23:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:23:24 UTC] PHP Warning:  Use of undefined constant estadoCategoria - assumed 'estadoCategoria' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/categoriasModales/editarCategoria.modal.php on line 67
+[03-Sep-2018 19:23:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:23:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 19:23:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/categoria.modelo.php on line 26
+[03-Sep-2018 19:23:27 UTC] PHP Warning:  Use of undefined constant estadoProducto - assumed 'estadoProducto' (this will throw an Error in a future version of PHP) in /home/v6rmp07wva1j/public_html/sitioAdmin/vistas/modulos/productosModales/editarProducto.modal.php on line 155
+[03-Sep-2018 19:29:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:30:35 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:30:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:30:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:31:04 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:31:04 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:31:25 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
+[03-Sep-2018 19:31:29 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/v6rmp07wva1j/public_html/sitioAdmin/modelos/administradores.modelo.php on line 12
