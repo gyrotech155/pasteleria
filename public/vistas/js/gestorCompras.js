@@ -2,17 +2,13 @@
 TABLA PARA MOSTRAR VENTAS
 ========================================*/
 	var id_usuario=document.getElementById("id_usuario").value;
-	var ruta=document.getElementById("urlOculta").value;
-	var datos = new FormData();
-	datos.append("id_usuario",id_usuario);
-
-	console.log(datos.values);
+	//console.log(id_usuario);
 
 $(".tablaComprasPendientes").DataTable({
+	 
 	 "ajax": {
-	 	method : "POST",
-	 	url  : ruta+"ajax/tablaComprasPendientes.ajax.php",
-	 	data : datos
+	 	"url"  : "ajax/tablaCompras.ajax.php?id_usuario="+id_usuario+"&estado_reserva=pendiente",
+	 	"type": "GET",
 	 },
 	 "deferRender": true,
 	 "retrieve": true,
@@ -48,7 +44,10 @@ $(".tablaComprasPendientes").DataTable({
 });
 
 $(".tablaComprasParciales").DataTable({
-	 "ajax": "ajax/tablaComprasParciales.ajax.php",
+	 "ajax": {
+	 	"url"  : "ajax/tablaCompras.ajax.php?id_usuario="+id_usuario+"&estado_reserva=parcial",
+	 	"type": "GET",
+	 },
 	 "deferRender": true,
 	 "retrieve": true,
 	 "processing": true,
@@ -83,7 +82,10 @@ $(".tablaComprasParciales").DataTable({
 });
 
 $(".tablaComprasEntregados").DataTable({
-	 "ajax": "ajax/tablaComprasEntregados.ajax.php",
+	 "ajax": {
+	 	"url"  : "ajax/tablaCompras.ajax.php?id_usuario="+id_usuario+"&estado_reserva=entregado",
+	 	"type": "GET",
+	 },
 	 "deferRender": true,
 	 "retrieve": true,
 	 "processing": true,

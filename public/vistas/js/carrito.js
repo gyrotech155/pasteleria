@@ -28,7 +28,7 @@ if(localStorage.getItem("listaProductos") != null){
 	}else{
 		var mes=_mes.toString;
 	}
-	var dia=fecha.getDate();
+	var dia=fecha.getDate()+4;
 
 	fechaActual=anio+'-'+mes+'-'+dia;
 

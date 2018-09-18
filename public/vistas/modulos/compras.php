@@ -42,7 +42,7 @@
     <div class="box div-tbl"style="background-color:#ffcccc">  
                 
       
-             <table class="table table-striped table-bordered dt-responsive tablaComprasPendientes" width="100%">
+             <table class="table table-striped table-bordered dt-responsive tablaComprasParciales" width="100%">
 
                   <thead>
                         <th style="width:10px">#</th>
@@ -63,7 +63,7 @@
     <div class="box div-tbl " style="background-color:#ffcccc">  
                 
         
-             <table class="table table-striped table-bordered dt-responsive tablaComprasPendientes" width="100%">
+             <table class="table table-striped table-bordered dt-responsive tablaComprasEntregados" width="100%">
 
                   <thead>
                     <tr>
