@@ -122,14 +122,14 @@ $(".tablaComprasEntregados").DataTable({
 			EDITAR Compra
 ==========================================*/
 
-$(".tablaVentas tbody").on("click",".btnEditarVenta",function(){
+$(".tablaCompras tbody").on("click",".btnEditarVenta",function(){
 	var id_detalle_carrito=$(this).attr("id_detalle_carrito");
 
 	var datos = new FormData();
 	datos.append("id_detalle_carrito",id_detalle_carrito);
 
 	$.ajax({
-		url:"ajax/ventas.ajax.php",
+		url:"ajax/compras.ajax.php",
 	    method:"POST",
 	    data: datos,
 	    cache: false,

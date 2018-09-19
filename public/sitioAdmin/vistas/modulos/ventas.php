@@ -20,7 +20,7 @@
     <div class="box">  
                 <h2 class="text-center">Ventas Pendientes</h2>
         
-             <table class="table table-striped table-bordered dt-responsive tablaVentas" width="100%">
+             <table class="table table-striped table-bordered dt-responsive tablaVentasPendiente" width="100%">
 
                   <thead>
                     <tr>

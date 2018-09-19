@@ -134,6 +134,7 @@ $(".tablaProductos tbody").on("click",".btnEditarProducto",function(){
 	    processData: false,
 	    dataType: "json",
 	    success:function(respuesta){
+	    	console.log("respuesta", respuesta);
 
 	    	$("#modalEditarProducto .idProducto").val(respuesta["id"]);
 	    	$("#modalEditarProducto .estadoProducto").val(respuesta["estado"]);

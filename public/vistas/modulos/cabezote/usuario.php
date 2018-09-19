@@ -23,7 +23,7 @@ USUARIOS
 	<!-- dropdown-menu -->
 	<ul class="dropdown-menu">
 
-		<li class="user-header center">
+		<li class="user-header">
 		   <?php
 			echo '<img src="'.$_SESSION["foto"].'" class="img-circle" alt="User Image" onerror=this.src="sitioAdmin/vistas/img/usuarios/default/anonymous.png" >'
            ?>
@@ -34,21 +34,20 @@ USUARIOS
 		
 		</li>
 
-		<li class="user-footer">
+		<li class="user-footer user-footer2 " >
 		
-			<div class="pull-left">
+			<div class="pull-center" >
 				
-				<a href="<?php echo $url;?>compras" class="btn btn-default btn-flat">Mis Compras</a>
+				<a href="<?php echo $url;?>compras" class="btn btn-default btn-flat btn-compra" >Mis Compras</a>
 				
 			</div>
 			
 
 		</li>
 
-
-		<li class="user-footer">
+		<li class="user-footer user-footer2">
 		
-			<div class="pull-left">
+			<div class="pull-left" >
 				
 				<a href="perfil" class="btn btn-default btn-flat">Perfil</a>
 			

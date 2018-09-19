@@ -15,12 +15,12 @@ class ControladorCarrito{
 			"estado"=>"pendiente"
 		);
 
-		//var_dump($datosCabezera);
+		
 
 		$tabla = "carrito";
 
 		$respuestaVec = ModeloCarrito::mdlNuevasCompras($tabla, $datosCabezera);
-
+var_dump($respuestaVec);
 		if($respuestaVec["resp"] == "ok"){
 
 			$cantidadArray=explode(",",$datos["cantidadArray"]);

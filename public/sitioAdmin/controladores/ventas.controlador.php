@@ -17,6 +17,16 @@ class ControladorVentas{
 
 	}
 
+
+		static public function ctrMostrarVentas($item, $valor){
+
+
+		$respuesta = ModeloVentas::mdlMostrarVentas($item, $valor);
+
+		return $respuesta;
+
+	}
+
 	static public function ctrEditarVenta(){ 
 	
 		if(isset($_POST["id_detalle_carrito"])){

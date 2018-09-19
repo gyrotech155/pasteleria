@@ -94,7 +94,30 @@ REDES SOCIALES
     background-color:#1e0210 !important;
 }
 
+.img-circle{
 
+height: 40px;
+width: 40px;
+  border-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  vertical-align: middle;
+  text-align: center;
+  display:block;
+  margin:auto;
+
+}
+
+
+.btn-compra{
+margin-bottom: 12px;
+height:40px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .skin-blue .main-header .navbar {
     background-color: #e66b88 !important;
 }
@@ -115,13 +138,34 @@ REDES SOCIALES
     background-color: #1e0210 !important;
 }
 
+.skin-blue .main-header .navbar {
+    background-color: #e4f0f5 !important;
+}
+
+
+.skin-blue .main-header .logo {
+    background-color: #650b2a !important;
+    color: #fff;
+    border-bottom: 0 solid transparesnt;
+}
+
+
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #1e0210 !important;
+}
+
 .skin-blue .main-header li.user-header {
     background-color: #d05b86 !important;
 }
 
+
 .dropdown-menu {
     box-shadow: none;
-    border-color: #bd5c5c !important;
+    border-color: #e4f0f5 !important;
+    background: #f03e7d;
+    font-size: 14px;
+
 }
 
 .div-img {
@@ -129,6 +173,17 @@ REDES SOCIALES
   margin-left: auto;
   margin-right: auto;
 }
+
+.user-footer2 {
+    background-color: #f9f9f9;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
+
+
 .div-img .img {
   display: block;
   margin-left: auto;
@@ -512,6 +567,7 @@ article a .txt h5{
 .dropdown-menu {
     box-shadow: none;
     border-color: #e4f0f5 !important;
+    background: #e4f0f5;
 }
 
 }

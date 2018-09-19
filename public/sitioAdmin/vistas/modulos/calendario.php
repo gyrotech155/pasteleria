@@ -23,15 +23,20 @@
           <div class="box box-primary">
             <div class="box-body no-padding">
               <!-- EL CALENDARIO -->
-              <div id="calendar"></div>
+              <div id="calendar"  ></div>
+
+              
             </div>
             <!-- /.box-body -->
-          </div>
+          </div >
           <!-- /. box -->
         </div>
         <!-- /.col -->
       </div>
       <!-- /.row -->
+
+   
+    
     </section>
     <!-- /.content -->
   </div>
@@ -83,9 +88,9 @@
         <?php $detalles = ControladorVentas::ctrMostrarDetalle(); ?>;
         var order=<?php echo json_encode($detalles);?>;
         console.log(order);
-        
+     
         for(var i=0;i<order.length;i++){
-
+         
            if (order[i][2]=='pendiente'){
                 eventos.push({ id: order[i][0],
                         title: order[i][2],
@@ -93,14 +98,16 @@
                         backgroundColor: '#dd4b39',//red
                         borderColor    : '#dd4b39',//red
                         });
+
+
             }
 
-            if (order[i][2]=='proceso'){
+            if (order[i][2]=='parcial'){
                 eventos.push({ id: order[i][0],
                         title: order[i][2],
                         start: order[i][1],
-                        backgroundColor: '#3c8dbc', //Blue
-                        borderColor    : '#3c8dbc', //Blue                       
+                        backgroundColor: 'yellow', //Blue
+                        borderColor    : 'yellow', //Blue                       
                         });
             }
             if (order[i][2]=='entregado'){
@@ -112,6 +119,8 @@
                         });
             }
           }
+
+
     //Date for the calendar events (dummy data)
     var date = new Date()
     var d    = date.getDate(),
@@ -189,6 +198,7 @@
         'color'           : '#fff'
       }).addClass('external-event')
       event.html(val)
+
       $('#external-events').prepend(event)
 
       //Add draggable funtionality

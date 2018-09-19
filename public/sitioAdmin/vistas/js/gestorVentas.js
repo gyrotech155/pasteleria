@@ -1,8 +1,13 @@
 /*=======================================
 TABLA PARA MOSTRAR VENTAS
 =========================================*/
-$(".tablaVentas").DataTable({
-	 "ajax": "ajax/tablaVentas.ajax.php",
+$(".tablaVentasPendiente").DataTable({
+
+	 "ajax": {
+	 	"url"  : "ajax/tablaVentas.ajax.php?&estado_reserva=pendiente",
+	 	"type": "GET",
+	 },
+	 
 	 "deferRender": true,
 	 "retrieve": true,
 	 "processing": true,
@@ -37,7 +42,10 @@ $(".tablaVentas").DataTable({
 });
 
 $(".tablaVentasParcial").DataTable({
-	 "ajax": "ajax/tablaVentasParcial.ajax.php",
+	  "ajax": {
+	 	"url"  : "ajax/tablaVentas.ajax.php?&estado_reserva=parcial",
+	 	"type": "GET",
+	 },
 	 "deferRender": true,
 	 "retrieve": true,
 	 "processing": true,
@@ -72,7 +80,10 @@ $(".tablaVentasParcial").DataTable({
 });
 
 $(".tablaVentasEntregado").DataTable({
-	 "ajax": "ajax/tablaVentasEntregado.ajax.php",
+	  "ajax": {
+	 	"url"  : "ajax/tablaVentas.ajax.php?&estado_reserva=entregado",
+	 	"type": "GET",
+	 },
 	 "deferRender": true,
 	 "retrieve": true,
 	 "processing": true,
@@ -112,10 +123,11 @@ $(".tablaVentasEntregado").DataTable({
 $(".tablaVentas tbody").on("click",".btnEditarVenta",function(){
 	console.log("hola");
 	var id_detalle_carrito=$(this).attr("id_detalle_carrito");
-
 	var datos = new FormData();
+		console.log("hola");
 	datos.append("id_detalle_carrito",id_detalle_carrito);
-console.log("chau");
+    console.log(id_detalle_carrito);
+
 	$.ajax({
 		url:"ajax/ventas.ajax.php",
 	    method:"POST",
@@ -125,17 +137,19 @@ console.log("chau");
 	    processData: false,
 	    dataType: "json",
 	    success:function(respuesta){
-	    console.log("respuesta",respuesta);
-	    	$("#modalEditarVenta .id_detalle_carrito").val(respuesta["id_detalle_carrito"]);
-	    	$("#modalEditarVenta .nombre").val(respuesta["nombre"]);
-	    	$("#modalEditarVenta .nombre_producto").val(respuesta["nombre_producto"]);
-	    	$("#modalEditarVenta .cantidad").val(respuesta["cantidad"]);
-	    	$("#modalEditarVenta .subtotal").val(respuesta["subtotal"]);
-	    	$("#modalEditarVenta .fecha_reserva").val(respuesta["fecha_reserva"]);
-	    	$("#modalEditarVenta .fecha_pedido").val(respuesta["fecha_pedido"]);
-	    	$("#modalEditarVenta .estado_reserva").val(respuesta["estado_reserva"]);
+	       console.log("respuesta",respuesta[0]);
+	    	$("#modalEditarVenta .id_detalle_carrito").val(respuesta[0]["id_detalle_carrito"]);
+	    	$("#modalEditarVenta .nombre").val(respuesta[0]["nombre"]);
+	    	$("#modalEditarVenta .nombre_producto").val(respuesta[0]["nombre_producto"]);
+	    	$("#modalEditarVenta .cantidad").val(respuesta[0]["cantidad"]);
+	    	$("#modalEditarVenta .subtotal").val(respuesta[0]["subtotal"]);
+	    	$("#modalEditarVenta .fecha_reserva").val(respuesta[0]["fecha_reserva"]);
+	    	$("#modalEditarVenta .fecha_pedido").val(respuesta[0]["fecha_pedido"]);
+	    	$("#modalEditarVenta .estado_reserva").val(respuesta[0]["estado_reserva"]);
+
+	  
 	    	
 	    }
 	})
 
-});
+})

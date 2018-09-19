@@ -10,8 +10,9 @@ class ModeloCarrito{
 
 	static public function mdlNuevasCompras($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla (id_usuario,fecha_pedido,total,estado) VALUES (:id_usuario, :fecha_pedido, :total, :estado)");
-
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla (id_usuario,fecha_pedido,total,estado) 
+												VALUES (:id_usuario, :fecha_pedido, :total, :estado)" );
+	
 		$stmt->bindParam(":id_usuario", $datos["id_usuario"], PDO::PARAM_STR);
 		$stmt->bindParam(":fecha_pedido", $datos["fecha_pedido"], PDO::PARAM_STR);
 		$stmt->bindParam(":estado", $datos["estado"], PDO::PARAM_STR);
@@ -19,8 +20,13 @@ class ModeloCarrito{
 
 
 		if($stmt->execute()){ 
+		 $id=Conexion::conectar()->lastInsertId();
+		 var_dump($id);
+		 $id->execute();
+
+			var_dump($id);
 			$respuesta= array(
-							"id"=>1,
+							"id"=>$id,
 							"resp"=>"ok"
 						);
 			return $respuesta; 
